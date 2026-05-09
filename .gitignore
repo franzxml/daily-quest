@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# production build
+dist/
+
+# environment and secrets
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# hosting and local services
+.vercel/
+.supabase/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS and editor artifacts
+.DS_Store
+
+# typescript
+tsconfig.tsbuildinfo
